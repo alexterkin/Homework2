@@ -1,5 +1,51 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        var dog = 8.0;
+        System.out.println(dog);
+        var cat = 3.6;
+        System.out.println(cat);
+        var paper = 763789;
+        System.out.println(paper);
+        dog = dog + 4;
+        System.out.println(dog);
+        cat = cat + 4;
+        System.out.println(cat);
+        paper = paper + 4;
+        System.out.println(paper);
+        dog = dog - 3.5;
+        System.out.println(dog);
+        cat = cat - 1.6;
+        System.out.println(cat);
+        paper = paper - 7639;
+        System.out.println(paper);
+        var friend = 19;
+        System.out.println(friend);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
+        var weightFirstBoxer = 78.2;
+        var weightSecondBoxer = 82.7;
+        var weightBothBoxers = weightFirstBoxer + weightSecondBoxer;
+        System.out.println(weightBothBoxers);
+        var differenceWeightBoxers = weightSecondBoxer - weightFirstBoxer;
+        System.out.println(differenceWeightBoxers);
+        var weightRemains = weightSecondBoxer % weightFirstBoxer;
+        System.out.println(weightRemains);
+        var totalWorkHours = 640;
+        var employeeWorkHours = 8;
+        var quantityEmployees = totalWorkHours / employeeWorkHours;
+        System.out.println("Всего работников в компании - " + quantityEmployees + " человек.");
+        quantityEmployees = quantityEmployees + 94;
+        totalWorkHours = quantityEmployees * employeeWorkHours;
+        System.out.println("Если в компании работает " + quantityEmployees + " человека, то всего " + totalWorkHours + " часа работы может быть поделено между сотрудниками.");
     }
 }
